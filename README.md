@@ -1,1 +1,1 @@
-# logofx-client-testing
+Various facilities for .NET client apps testing
