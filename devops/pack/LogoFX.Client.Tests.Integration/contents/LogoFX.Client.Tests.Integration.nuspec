@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>LogoFX.Client.Tests.Integration</id>
+    <version>2.2.2</version>
+    <title>LogoFX.Client.Testing.Integration</title>
+    <authors>Gennady Verdel</authors>
+    <owners>Gennady Verdel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/LogoFX/logofx-client-testing-integration/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LogoFX/logofx-client-testing-integration</projectUrl>
+    <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
+    <description>LogoFX Client Testing Integration containing implementation of Start Client Application Service for integration tests.</description>
+    <summary>LogoFX Client Testing Integration containing implementation of Start Client Application Service for integration tests.</summary>
+    <releaseNotes>
+    </releaseNotes>
+    <dependencies>
+      <dependency id="Attest.Testing.Contracts" version="2.4.1" />
+      <dependency id="LogoFX.Client.Tests.Contracts" version="2.2.2" />
+    </dependencies>
+    <tags>framework logofx dotnet</tags>
+    <repository type="Open Source" url="https://github.com/LogoFX/logofx-client-testing-integration" />
+  </metadata>
+</package>
