@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>LogoFX.Client.Testing.Integration.xUnit</id>
+    <version>2.2.2</version>
+    <title>LogoFX.Client.Testing.Integration.xUnit</title>
+    <authors>Gennady Verdel</authors>
+    <owners>Gennady Verdel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/LogoFX/logofx-client-testing-integration-xunit/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/LogoFX/logofx-client-testing-integration-xunit</projectUrl>
+    <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
+    <description>LogoFX Client Tests Integration xUnit containing implementation of Builder Registration Service for xUnit
+and base class for unit and integration tests.</description>
+    <summary>LogoFX Client Tests Integration xUnit containing implementation of Builder Registration Service for xUnit
+and base class for unit and integration tests.</summary>
+    <releaseNotes>Added support for key value data store.</releaseNotes>
+    <dependencies>
+      <dependency id="Solid.Core" version="2.3.2" />
+      <dependency id="Solid.Patterns.Builder" version="2.3.2" />
+      <dependency id="Attest.Testing.Contracts" version="2.4.1" />
+      <dependency id="Attest.Tests.Core" version="2.4.1" />
+      <dependency id="Attest.Tests.xUnit" version="2.4.1" />
+      <dependency id="LogoFX.Client.Tests.Shared" version="2.2.2" />
+    </dependencies>
+    <tags>framework logofx dotnet</tags>
+    <repository type="Open Source" url="https://github.com/LogoFX/logofx-client-testing-integration-xunit" />
+  </metadata>
+</package>

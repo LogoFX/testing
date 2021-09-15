@@ -1,0 +1,19 @@
+version: 2.2.2.{build}
+configuration: Release
+before_build:
+- cd src
+- nuget restore
+- cd ..
+build:
+  verbosity: minimal
+  project: ./src/LogoFX.Client.Testing.sln
+after_test:
+- cd devops
+- cd pack
+- pack-all
+image: Visual Studio 2019
+artifacts:
+- name: Packages
+  path: .\output\*.nupkg
+...
+
