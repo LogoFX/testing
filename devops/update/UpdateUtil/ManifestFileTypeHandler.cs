@@ -14,9 +14,7 @@ namespace UpdateUtil
 
         public ManifestFileTypeHandler()
             :this(new ManifestFileTypeHandlerOptions())
-        {
-
-        }
+        {}
 
         public override void UpdateFiles(string prefix, VersionInfo versionInfo)
         {
