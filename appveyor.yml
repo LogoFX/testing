@@ -1,4 +1,4 @@
-version: 2.2.3.{build}
+version: 2.2.4.{build}
 configuration: Release
 before_build:
 - cd src
@@ -16,4 +16,3 @@ artifacts:
 - name: Packages
   path: .\output\*.nupkg
 ...
-
