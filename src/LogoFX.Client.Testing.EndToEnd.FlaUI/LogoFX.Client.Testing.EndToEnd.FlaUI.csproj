@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <Version>2.2.4</Version>
+    <Version>2.2.5</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>../bin/debug</OutputPath>
@@ -15,7 +15,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.2" />
+    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.3" />
     <PackageReference Include="FlaUI.Core" Version="3.2.0" />
   </ItemGroup>
 </Project>
