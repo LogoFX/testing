@@ -1,4 +1,4 @@
-version: 2.2.4.{build}
+version: 2.2.5.{build}
 configuration: Release
 before_build:
 - cd src
@@ -11,7 +11,7 @@ after_test:
 - cd devops
 - cd pack
 - pack-all
-image: Visual Studio 2019
+image: Visual Studio 2022
 artifacts:
 - name: Packages
   path: .\output\*.nupkg
