@@ -14,7 +14,7 @@
     <summary>LogoFX Client Testing EndToEnd FlaUI containing implementation of Application Facade using FlaUI.</summary>
     <releaseNotes>Initial release</releaseNotes>
     <dependencies>
-      <dependency id="Attest.Testing.Contracts" version="2.4.3" />
+      <dependency id="Attest.Testing.Contracts" version="2.4.4" />
       <dependency id="FlaUI.Core" version="3.0.0" />
     </dependencies>
     <tags>framework logofx dotnet</tags>
