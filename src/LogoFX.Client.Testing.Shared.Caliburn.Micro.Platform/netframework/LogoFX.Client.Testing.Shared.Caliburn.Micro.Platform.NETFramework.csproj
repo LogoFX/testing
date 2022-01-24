@@ -22,7 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">    
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
     <OutputPath>..\..\Bin\netframework\Release\</OutputPath>
     <DefineConstants>TRACE;NET</DefineConstants>
@@ -36,7 +36,7 @@
   <ItemGroup>
     <Reference Include="Caliburn.Micro, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\Caliburn.Micro\netstandard1.0\Caliburn.Micro.dll</HintPath>
+      <HintPath>..\..\..\..\bootstrapping\src\lib\Caliburn.Micro\netstandard1.0\Caliburn.Micro.dll</HintPath>
     </Reference>
     <Reference Include="Caliburn.Micro.Platform, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
