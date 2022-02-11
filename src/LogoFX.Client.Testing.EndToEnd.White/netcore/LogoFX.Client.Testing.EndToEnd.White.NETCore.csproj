@@ -19,7 +19,7 @@
     <Compile Include="..\src\TeardownService.cs" Link="TeardownService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.4" />
+    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.5-rc1" />
     <PackageReference Include="TestStack.White" Version="0.13.3" />
   </ItemGroup>
 </Project>
