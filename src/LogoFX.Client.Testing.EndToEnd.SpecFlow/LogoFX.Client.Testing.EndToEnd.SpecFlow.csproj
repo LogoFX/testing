@@ -12,9 +12,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Attest.Fake.Data" Version="2.4.5-rc1" />
-    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.5-rc1" />
-    <PackageReference Include="Attest.Tests.Core" Version="2.4.5-rc1" />
-    <PackageReference Include="Attest.Tests.SpecFlow" Version="2.4.5-rc1" />
+    <PackageReference Include="Attest.Fake.Data" Version="2.4.5" />
+    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.5" />
+    <PackageReference Include="Attest.Tests.Core" Version="2.4.5" />
+    <PackageReference Include="Attest.Tests.SpecFlow" Version="2.4.5" />
   </ItemGroup>
 </Project>
