@@ -4,7 +4,7 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AssemblyName>LogoFX.Client.Testing.EndToEnd.White</AssemblyName>
     <RootNamespace>LogoFX.Client.Testing.EndToEnd.White</RootNamespace>
-    <Version>2.2.6</Version>
+    <Version>2.2.7</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\bin\net\Release\</OutputPath>
@@ -19,7 +19,7 @@
     <Compile Include="..\src\TeardownService.cs" Link="TeardownService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.5" />
+    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.6-rc1" />
     <PackageReference Include="TestStack.White" Version="0.13.3" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-version: 2.2.6.{build}
+version: 2.2.7.{build}
 configuration: Release
 before_build:
 - cd src
