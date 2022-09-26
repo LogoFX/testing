@@ -15,7 +15,7 @@
     <releaseNotes>
     </releaseNotes>
     <dependencies>
-      <dependency id="Attest.Testing.Contracts" version="2.4.4" />
+      <dependency id="Attest.Testing.Contracts" version="2.4.6-rc1" />
       <dependency id="LogoFX.Client.Tests.Contracts" version="2.2.7-rc1" />
     </dependencies>
     <tags>framework logofx dotnet</tags>
