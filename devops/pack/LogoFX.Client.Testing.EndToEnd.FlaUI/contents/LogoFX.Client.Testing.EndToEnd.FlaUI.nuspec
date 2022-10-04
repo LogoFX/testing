@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>LogoFX.Client.Testing.EndToEnd.FlaUI</id>
-    <version>2.2.6</version>
+    <version>2.2.7-rc1</version>
     <title>LogoFX.Client.Testing.EndToEnd.FlaUI</title>
     <authors>Gennady Verdel</authors>
     <owners>Gennady Verdel</owners>
@@ -12,9 +12,10 @@
     <iconUrl>https://github.com/LogoFX/logofx-assets/blob/master/icons/icon.png?raw=true</iconUrl>
     <description>LogoFX Client Testing EndToEnd FlaUI containing implementation of Application Facade using FlaUI.</description>
     <summary>LogoFX Client Testing EndToEnd FlaUI containing implementation of Application Facade using FlaUI.</summary>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>
+    </releaseNotes>
     <dependencies>
-      <dependency id="Attest.Testing.Contracts" version="2.4.4" />
+      <dependency id="Attest.Testing.Contracts" version="2.4.6-rc1" />
       <dependency id="FlaUI.Core" version="3.0.0" />
     </dependencies>
     <tags>framework logofx dotnet</tags>
