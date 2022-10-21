@@ -12,11 +12,11 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.6-rc1" />
-    <PackageReference Include="Attest.Tests.Core" Version="2.4.6-rc1" />
-    <PackageReference Include="Attest.Tests.SpecFlow" Version="2.4.6-rc1" />
-    <PackageReference Include="Solid.Core" Version="2.3.6-rc1" />
-    <PackageReference Include="Solid.Patterns.Builder" Version="2.3.6-rc1" />
+    <PackageReference Include="Attest.Testing.Contracts" Version="2.4.6" />
+    <PackageReference Include="Attest.Tests.Core" Version="2.4.6" />
+    <PackageReference Include="Attest.Tests.SpecFlow" Version="2.4.6" />
+    <PackageReference Include="Solid.Core" Version="2.3.6" />
+    <PackageReference Include="Solid.Patterns.Builder" Version="2.3.6" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LogoFX.Client.Testing.Shared\LogoFX.Client.Testing.Shared.csproj" />

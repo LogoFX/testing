@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Attest.Testing.Contracts">
-      <Version>2.4.6-rc1</Version>
+      <Version>2.4.6</Version>
     </PackageReference>
     <PackageReference Include="TestStack.White">
       <Version>0.13.3</Version>
